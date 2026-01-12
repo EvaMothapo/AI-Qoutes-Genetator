@@ -1,3 +1,62 @@
 body {
-  background: #efe5f5;
+  background-image: url("image/Gif.gif");
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+a {
+  color: #885df1;
+}
+.container {
+  margin: 120px auto;
+  max-width: 700px;
+}
+header {
+  margin-bottom: 30px;
+}
+h1 {
+  text-align: center;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #8f14a4;
+  font-size: 36px;
+}
+form {
+  background-color: #f0ffff;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(75, 60, 120, 0.08);
+  padding: 40px;
+  display: flex;
+}
+.instructions {
+  font-size: 16px;
+  width: 80%;
+  line-height: 1.6;
+  color: #272044;
+  border: 1px dotted rgba(40, 34, 67, 0.5);
+  border-radius: 30px;
+  padding: 16px;
+}
+.submit-button {
+  color: #fff;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 14px 24px;
+  width: 150px;
+  background: #8f14a4;
+  border: none;
+  border-radius: 30px;
+}
+.quote {
+  line-height: 2;
+  font-size: 16px;
+  background-color: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(40, 34, 67, 0.03);
+  border-left: 4px double #8f14a4;
+  padding: 20px;
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 20px;
 }
