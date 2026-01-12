@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Quote Generator</title>
 </head>
 
@@ -15,16 +16,17 @@
                 🗯️AI Quote Generator🗯️
             </h1>
         </header>
+
         <main>
-            <form>
+            <form id="quote-generator-form">
                 <input type="text" placeholder="Enter the topic of the Quote" autofocus required autocomplete="off"
                     class="instructions" />
                 <input type="submit" class="submit-button" />
             </form>
-            <div class="quote">
-                The quote will go here
+            <div class="quote" id="quote">
             </div>
         </main>
+        
         <footer>
             This AI project was coded by <a href="https://github.com/EvaMothapo" target="_blank">Eva Mothapo</a> and
             is <a href="https://github.com/EvaMothapo/AI-Qoutes-Genetator" target="_blank"> open-sourced on Github</a>
